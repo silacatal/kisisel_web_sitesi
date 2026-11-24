@@ -1,0 +1,489 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Dr. Öğr. Üyesi Aycan Pekpazar'ın akademik çalışmaları, projeleri ve etkileşimli testleri.">
+
+    <title>Dr. Öğr. Üyesi Aycan Pekpazar | Akademik Web Sitesi</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Klavye kullanıcıları için doğrudan içeriğe geçiş -->
+<a href="#main-content" class="skip-link">İçeriğe geç</a>
+
+<!-- NAVBAR -->
+<header>
+    <nav class="navbar navbar-expand-lg custom-navbar" aria-label="Ana navigasyon">
+
+        <div class="container">
+
+            <a class="navbar-brand brand-logo" href="index.html" aria-label="Aycan Pekpazar ana sayfa">
+                <span class="brand-symbol">AP.</span>
+                <span class="brand-text">
+                    AYCAN PEKPAZAR
+                    <small>AKADEMİK WEB SİTESİ</small>
+                </span>
+            </a>
+
+            <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Menüyü aç veya kapat">
+
+                <i class="bi bi-list" aria-hidden="true"></i>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-center" id="mainMenu">
+
+                <ul class="navbar-nav nav-menu">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">
+                            Ana Sayfa
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="projeler.html">
+                            Projeler
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="testler.html">
+                            Testler & Anketler
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="hakkimda.html">
+                            Hakkımda
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="iletisim.html">
+                            İletişim
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <a href="hakkimda.html#ozgecmis" class="navbar-cv d-none d-lg-flex">
+                Akademik CV
+                <i class="bi bi-arrow-up-right" aria-hidden="true"></i>
+            </a>
+
+        </div>
+    </nav>
+</header>
+
+<main>
+
+  <!-- KARŞILAMA ALANI -->
+  <section class="hero-section">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-7">
+          <span class="hero-label">
+            SAMSUN ÜNİVERSİTESİ · ENDÜSTRİ MÜHENDİSLİĞİ
+          </span>
+
+          <h1>
+            Bilimle keşfet,<br>
+            <span>geleceği şekillendir.</span>
+          </h1>
+
+          <p class="hero-description">
+            Akademik çalışmalar, yenilikçi projeler ve
+            etkileşimli araçlarla bilgiye, araştırmaya ve
+            gelişime açılan bir yolculuk.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="projeler.html" class="btn btn-plum">
+              Projeleri Keşfet <i class="bi bi-arrow-right"></i>
+            </a>
+
+            <a href="hakkimda.html" class="btn btn-outline-plum">
+              Akademik Özgeçmiş
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="hero-art">
+            <div class="hero-circle circle-one"></div>
+            <div class="hero-circle circle-two"></div>
+
+            <div class="hero-center">
+              <i class="bi bi-lightbulb"></i>
+              <span>Fikirden<br>Geleceğe</span>
+            </div>
+
+            <div class="floating-note note-one">
+              <i class="bi bi-graph-up-arrow"></i>
+              <span>Veri Analizi</span>
+            </div>
+
+            <div class="floating-note note-two">
+              <i class="bi bi-cpu"></i>
+              <span>Yapay Zekâ</span>
+            </div>
+
+            <div class="floating-note note-three">
+              <i class="bi bi-diagram-3"></i>
+              <span>Endüstri 4.0</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- PROJELER VE TESTLER -->
+  <section class="discovery-section">
+    <div class="container">
+
+      <div class="section-heading text-center">
+        <span class="section-label">KEŞFETMEYE BAŞLA</span>
+        <h2>Bilgiye açılan iki farklı kapı</h2>
+        <p>
+          Akademik projeleri inceleyin, etkileşimli
+          test ve anketlerle yeni keşifler yapın.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-lg-6">
+          <div class="discovery-card project-card">
+            <div class="discovery-icon">
+              <i class="bi bi-diagram-3"></i>
+            </div>
+
+            <span class="card-number">01 / PROJELER</span>
+
+            <h3>Fikirden projeye<br>uzanan yolculuk</h3>
+
+            <p>
+              Bilimsel araştırmalar, TÜBİTAK çalışmaları
+              ve yenilikçi proje fikirlerini keşfedin.
+            </p>
+
+            <a href="projeler.html">
+              Projeleri İncele
+              <i class="bi bi-arrow-right"></i>
+            </a>
+
+            <div class="card-decoration">
+              <i class="bi bi-boxes"></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div class="discovery-card test-card">
+            <div class="discovery-icon">
+              <i class="bi bi-ui-checks"></i>
+            </div>
+
+            <span class="card-number">02 / TESTLER & ANKETLER</span>
+
+            <h3>Kendini keşfet,<br>sonuçlarını öğren</h3>
+
+            <p>
+              Kişilik, stres ve kariyer eğilimi testleriyle
+              kendiniz hakkında yeni bilgiler edinin.
+            </p>
+
+            <a href="testler.html">
+              Testleri Keşfet
+              <i class="bi bi-arrow-right"></i>
+            </a>
+
+            <div class="card-decoration">
+              <i class="bi bi-pie-chart"></i>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ARAŞTIRMA ALANLARI -->
+  <section class="research-section">
+    <div class="container">
+
+      <div class="section-heading">
+        <span class="section-label">AKADEMİK ÇALIŞMALAR</span>
+        <h2>Araştırmanın farklı boyutları</h2>
+        <p>
+          Endüstri mühendisliği perspektifiyle teknoloji,
+          analiz ve sistem tasarımını bir araya getiren
+          çalışma alanları.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="research-card">
+            <i class="bi bi-cpu"></i>
+            <h4>Yapay Zekâ</h4>
+            <p>
+              Yapay zekâ uygulamaları ve makine öğrenmesi
+              yaklaşımları.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="research-card">
+            <i class="bi bi-people"></i>
+            <h4>Kullanılabilirlik</h4>
+            <p>
+              Dijital platformlarda kullanıcı deneyimi
+              ve arayüz değerlendirmeleri.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="research-card">
+            <i class="bi bi-box-seam"></i>
+            <h4>Tedarik Zinciri</h4>
+            <p>
+              Tedarik zinciri ağı tasarımı ve
+              lojistik sistemler.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="research-card">
+            <i class="bi bi-bar-chart-line"></i>
+            <h4>Veri Analizi</h4>
+            <p>
+              Veriye dayalı değerlendirme ve
+              karar destek yaklaşımları.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="text-center mt-5">
+        <a href="hakkimda.html" class="text-link">
+          Akademik çalışmalar hakkında daha fazla bilgi
+          <i class="bi bi-arrow-right"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- CAREERMAP AI -->
+  <section class="careermap-section">
+    <div class="container">
+      <div class="careermap-box">
+
+        <div class="row align-items-center">
+
+          <div class="col-lg-7">
+            <span class="section-label">KARİYERİNİ KEŞFET</span>
+
+            <h2>
+              CareerMap AI ile<br>
+              <span>kendine yeni bir yol çiz.</span>
+            </h2>
+
+            <p>
+              Kişilik özelliklerini, stres düzeyini ve
+              kariyer eğilimlerini keşfetmeye yönelik
+              testlerle kendini daha yakından tanı.
+            </p>
+
+            <a href="testler.html" class="btn btn-plum">
+              CareerMap AI'ı Keşfet
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="career-visual">
+              <div class="career-orbit orbit-one"></div>
+              <div class="career-orbit orbit-two"></div>
+
+              <div class="career-icon">
+                <i class="bi bi-stars"></i>
+              </div>
+
+              <div class="career-mini-card mini-one">
+                <i class="bi bi-person-check"></i>
+                Kişilik Analizi
+              </div>
+
+              <div class="career-mini-card mini-two">
+                <i class="bi bi-signpost-split"></i>
+                Kariyer Eğilimi
+              </div>
+
+              <div class="career-mini-card mini-three">
+                <i class="bi bi-clipboard-data"></i>
+                Test Sonuçları
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- AKADEMİK ÖZGEÇMİŞE YÖNLENDİRME -->
+  <section class="about-preview">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-7">
+          <span class="section-label">AKADEMİK YOLCULUK</span>
+
+          <h2>
+            Bilgi, deneyim ve<br>
+            <span>araştırmayla gelişen bir yolculuk.</span>
+          </h2>
+
+          <p>
+            Eğitim geçmişi, akademik görevler,
+            bilimsel yayınlar ve araştırma çalışmalarına
+            akademik özgeçmiş sayfasından ulaşabilirsiniz.
+          </p>
+
+          <a href="hakkimda.html" class="btn btn-outline-plum">
+            Hakkımda Daha Fazla
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+
+        <div class="col-lg-5">
+          <div class="about-highlight">
+            <i class="bi bi-mortarboard"></i>
+            <h3>Akademik Birikim</h3>
+            <p>
+              Endüstri mühendisliği ve disiplinler arası
+              araştırma çalışmaları.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+
+
+<!-- FOOTER -->
+<footer class="footer-section">
+
+    <div class="container">
+
+        <div class="row gy-4 align-items-center">
+
+            <div class="col-lg-5">
+
+                <a href="index.html" class="footer-logo">AP.</a>
+
+                <p>
+                    Dr. Öğr. Üyesi Aycan Pekpazar<br>
+                    Samsun Üniversitesi · Endüstri Mühendisliği
+                </p>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="footer-links">
+                    <a href="projeler.html">Projeler</a>
+                    <a href="testler.html">Testler & Anketler</a>
+                    <a href="hakkimda.html">Hakkımda</a>
+                    <a href="iletisim.html">İletişim</a>
+                </div>
+
+            </div>
+
+            <div class="col-lg-3">
+
+                <div class="footer-social">
+
+                    <a href="https://avesis.samsun.edu.tr/aycan.pekpazar"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       aria-label="Akademik profil">
+
+                        <i class="bi bi-mortarboard"></i>
+                    </a>
+
+                    <a href="mailto:aycan.pekpazar@samsun.edu.tr"
+                       aria-label="E-posta gönder">
+
+                        <i class="bi bi-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="currentYear"></span> Aycan Pekpazar</span>
+            <span>Bilim, araştırma ve yenilik.</span>
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
